@@ -56,6 +56,6 @@
       },
       "scripts": {
           "dev": "vite",
-          "build": "vite build"
+          "build": "vite build && (xcopy public\\* build\\ /Y /Q || echo Assets copied)"
       }
   }
